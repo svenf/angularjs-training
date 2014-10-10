@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html ng-app="motownFestival">
+<head>
+  <meta charset="utf-8" />
+  <title>Motown Festival - Index</title>
+  <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body ng-controller="IndexCtrl">
+  <div id="templatemo_wrapper">
+
+    <div id="templatemo_header">
+
+      <div id="site_title">
+        <h1>
+          <a href="#" target="_parent">
+            <img src="images/templatemo_logo.png" alt="CSS Templates" />
+            <span>Motown Festival</span>
+          </a>
+        </h1>
+      </div>
+
+    </div> <!-- end of templatemo_header -->
+
+    <div id="templatemo_menu">
+      <ul>
+        <li><a ng-class="{current: isCurrentLocation('/home')}" href="/home">Home</a></li>
+        <li><a ng-class="{current: isCurrentLocation('/lineup')}" href="/lineup">Lineup</a></li>
+        <li><a ng-class="{current: isCurrentLocation('/tickets')}" href="/tickets">Tickets</a></li>
+        <li><a ng-class="{current: isCurrentLocation('/practical')}" href="/practical">Practical Information</a></li>
+        <li><a ng-class="{current: isCurrentLocation('/admin')}" href="/admin">Admin</a></li>
+      </ul>
+
+    </div> <!-- end of templatemo_menu -->
+
+    <div id="templatemo_content" ng-view>
+    </div> <!-- end of templatemo_content -->
+
+    <div id="templatemo_footer">
+
+      <ul class="footer_menu">
+        <li><a href="#/index">Home</a></li>
+        <li><a href="#/lineup">Lineup</a></li>
+        <li><a href="#/tickets">Tickets</a></li>
+        <li><a href="#/practical">Practical Information</a></li>
+        <li><a href="#/admin">Admin</a></li>
+      </ul>
+
+      Copyright © 1972 <a href="#">U2U</a>
+    </div> <!-- end of footer -->
+
+  </div> <!-- end of templatemo_wrapper -->
+  <script src="scripts/angular.min.js"></script>
+  <script src="scripts/angular-route.js"></script>
+  <script src="scripts/data.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/tickets.js"></script>
+  <script src="scripts/lineup.js"></script>
+</body>
+</html>

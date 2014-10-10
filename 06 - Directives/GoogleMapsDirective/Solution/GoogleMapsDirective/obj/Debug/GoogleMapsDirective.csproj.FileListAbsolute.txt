@@ -1,0 +1,14 @@
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\GoogleMapsDirective.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\GoogleMapsDirective.pdb
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\mscorlib.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\de\mscorlib.resources.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\fr\mscorlib.resources.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\it\mscorlib.resources.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\nl\mscorlib.resources.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\normidna.nlp
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\normnfc.nlp
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\normnfd.nlp
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\normnfkc.nlp
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\bin\normnfkd.nlp
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\obj\Debug\GoogleMapsDirective.dll
+C:\projects\angularjs-training\06 - Directives\GoogleMapsDirective\Solution\GoogleMapsDirective\obj\Debug\GoogleMapsDirective.pdb

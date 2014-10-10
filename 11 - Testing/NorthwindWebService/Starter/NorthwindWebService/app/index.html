@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+  <style>
+    form input {
+      display:block;
+    }
+  </style>
+</head>
+<body ng-controller="appCtrl">
+  <div>
+    Fetch product:
+    <input type="text" ng-model="data.id" ng-blur="fetch()" />
+  </div>
+  <h1>Product Details</h1>
+  <form name="form">
+    <div>
+      Name:<input type="text" name="pProductName" ng-model="data.product.ProductName" />
+    </div>
+    <div>
+      UnitPrice:<input type="text" name="pUnitPrice" ng-model="data.product.UnitPrice" />
+    </div>
+    <div>
+      Discontinued:<input type="checkbox" name="pDiscontinued" ng-model="data.product.Discontinued" />
+    </div>
+    <div>
+      <input type="button" value="Save Changes" ng-click="update()" />
+    </div>
+  </form>
+  <p>{{data.feedback}}</p>
+
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-resource.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

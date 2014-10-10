@@ -1,0 +1,49 @@
+﻿<div class="content_section" ng-controller="TicketOrderCtrl">
+<div class="content_section">
+
+  <h2>Place your order</h2>
+
+  <table>
+    <thead>
+      <tr><th></th><th>Item</th><th>Quantity</th><th>Price</th></tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="ticketLine in model.ticketLines">
+        <td><input type="checkbox" ng-model="ticketLine.isChecked" ng-change="resetLine(ticketLine)" /></td>
+        <td>{{ticketLine.type}}</td>
+        <td><input type="number" min="0" ng-model="ticketLine.quantity" ng-show="ticketLine.isChecked" /></td>
+        <td><span ng-show="ticketLine.isChecked">{{getLinePrice(ticketLine)}}$</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Total</td>
+        <td></td>
+        <td>{{getTotalPrice()}}$</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Choose your complimentary T-shirt</h3>
+  <section id="shirt" ng-click="rotateShirt(model.shirt)">
+    <img src="{{model.shirt.imageUrl}}" />
+    <div class="button_01"><a>Next</a></div>
+  </section>
+
+  <h3>Ready?</h3>
+  <section>
+    <div class="button_01"><a href="#">Choose Payment Method</a></div>
+  </section>
+
+  <h3>Our Services</h3>
+  <ul class="service_list">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Duis tempor augue vel lectus volutpat nec pharetra mauris semper.</li>
+    <li>Phasellus nec sapien mauris, ac consequat eros.</li>
+    <li>Vivamus non mi quis purus fermentum eleifend.</li>
+    <li>Nullam dapibus mattis augue, sed fringilla nisi ultrices non.</li>
+    <li>Aliquam vitae eros diam, eu dignissim ligula.</li>
+  </ul>
+
+  <p>Fusce quis diam sit amet tortor luctus pellentesque. Donec accumsan urna non elit tristique mattis. Vivamus fermentum orci viverra nisl. In nec magna id ipsum aliquam dictum. Donec euismod enim et risus. Nunc dictum, massa non dignissim commodo, metus quam vehicula lorem, et dignissim enim augue vitae pede. Donec at arcu. Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus. Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. Proin vulputate justo et quam. Cras nisl eros, elementum eu, iaculis vitae, viverra ut, ligula. Pellentesque metus. Duis dolor.</p>
+
+</div>

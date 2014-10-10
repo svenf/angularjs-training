@@ -1,0 +1,4 @@
+C:\projects\angularjs-training\01 - Databinding with AngularJS\Starter\QueryingLab\bin\QueryingLab.dll
+C:\projects\angularjs-training\01 - Databinding with AngularJS\Starter\QueryingLab\bin\QueryingLab.pdb
+C:\projects\angularjs-training\01 - Databinding with AngularJS\Starter\QueryingLab\obj\Debug\QueryingLab.dll
+C:\projects\angularjs-training\01 - Databinding with AngularJS\Starter\QueryingLab\obj\Debug\QueryingLab.pdb

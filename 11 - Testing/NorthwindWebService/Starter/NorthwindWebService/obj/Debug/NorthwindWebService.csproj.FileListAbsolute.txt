@@ -1,0 +1,15 @@
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\NorthwindWebService.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\NorthwindWebService.pdb
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\mscorlib.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\de\mscorlib.resources.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\fr\mscorlib.resources.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\it\mscorlib.resources.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\nl\mscorlib.resources.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\normidna.nlp
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\normnfc.nlp
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\normnfd.nlp
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\normnfkc.nlp
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\bin\normnfkd.nlp
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\obj\Debug\NorthwindWebService.csprojResolveAssemblyReference.cache
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\obj\Debug\NorthwindWebService.dll
+C:\projects\angularjs-training\11 - Testing\NorthwindWebService\Starter\NorthwindWebService\obj\Debug\NorthwindWebService.pdb
